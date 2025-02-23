@@ -1,0 +1,91 @@
+<!-- Cyber-Edge -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Project 1</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/script.js"></script>
+	
+	</head>
+	<body>
+		<div id="container">
+			<!-- header tag --> 
+		<header>
+			<h1>JavaScript Quiz</h1>
+			
+		</header>
+			<!-- section within header for result-->
+		<section>
+		<form name="quizForm" onsubmit="return submitAnswers()">
+			<h3>Q1 - Which of the following is correct about JavaScript?</h3>
+			<input type="radio" name="q1" value="a" id="q1a">A - JavaScript is a lightweight, interpreted programming language<br>
+			<input type="radio" name="q1" value="b" id="q1b">B - JavaScript has object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages<br>
+			<input type="radio" name="q1" value="c" id="q1c">C - The general-purpose core of the language has been embedded in Netscape, Internet Explorer, and other web browsers<br>
+			<input type="radio" name="q1" value="d" id="q1d">D - All of the above<br>
+				
+			<h3>Q2 - Which of the following is the correct syntax to redirect a url using JavaScript?</h3>
+			<input type="radio" name="q2" value="a" id="q2a">A - document.location='http://www.newlocation.com';<br>
+			<input type="radio" name="q2" value="b" id="q2b">B - browser.location='http://www.newlocation.com';<br>
+			<input type="radio" name="q2" value="c" id="q2c">C - navigator.location='http://www.newlocation.com';<br>
+			<input type="radio" name="q2" value="d" id="q2d">D - window.location='http://www.newlocation.com';<br>
+				
+			<h3>Q3 - Which built-in method returns the length of the string?</h3>
+			<input type="radio" name="q3" value="a" id="q3a">A - length()<br>
+			<input type="radio" name="q3" value="b" id="q3b">B - size()<br>
+			<input type="radio" name="q3" value="c" id="q3c">C - index()<br>
+			<input type="radio" name="q3" value="d" id="q3d">D - None of the above<br>
+			
+			<h3>Q4 - Which of the following function of Number object forces a number to display in exponential notation?</h3>
+			<input type="radio" name="q4" value="a" id="q4a">A - toExponential()<br>
+			<input type="radio" name="q4" value="b" id="q4b">B - toFixed()<br>
+			<input type="radio" name="q4" value="c" id="q4c">C - toPrecision()<br>
+			<input type="radio" name="q4" value="d" id="q4d">D - toLocaleString()<br>
+				
+			<h3>Q5 - Which of the following function of Boolean object returns a string of either 'true' or 'false' depending upon the value of the object?</h3>
+			<input type="radio" name="q5" value="a" id="q5a">A - toSource()<br>
+			<input type="radio" name="q5" value="b" id="q5b">B - valueOf()<br>
+			<input type="radio" name="q5" value="c" id="q5c">C - toString()<br>
+			<input type="radio" name="q5" value="d" id="q5d">D - None of the above<br>
+				
+			<h3>Q6 - Which of the following function of String object returns the index within the calling String object of the last occurrence of the specified value?</h3>
+			<input type="radio" name="q6" value="a" id="q6a">A - lastIndexOf()<br>
+			<input type="radio" name="q6" value="b" id="q6b">B - search()<br>
+			<input type="radio" name="q6" value="c" id="q6c">C - substr()<br>
+			<input type="radio" name="q6" value="d" id="q6d">D - indexof()<br>
+			
+			<h3>Q 7 - Which of the following function of String object returns the calling string value converted to lower case while respecting the current locale?</h3>
+			<input type="radio" name="q7" value="a" id="q7a">A - toLocaleLowerCase()<br>
+			<input type="radio" name="q7" value="b" id="q7b">B - toLowerCase()<br>
+			<input type="radio" name="q7" value="c" id="q7c">C - tostring()<br>
+			<input type="radio" name="q7" value="d" id="q7d">D - substring()<br>
+			
+			<h3>Q8 - Which of the following function of String object causes a string to be italic, as if it were in an  tag?</h3>
+			<input type="radio" name="q8" value="a" id="q8a">A - fixed()<br>
+			<input type="radio" name="q8" value="b" id="q8b">B - fontcolor()<br>
+			<input type="radio" name="q8" value="c" id="q8c">C - fontsize()<br>
+			<input type="radio" name="q8" value="d" id="q8d">D - italics()<br>
+			
+			<h3>Q9 - Which of the following function of Array object returns true if every element in this array satisfies the provided testing function?</h3>
+			<input type="radio" name="q9" value="a" id="q9a">A - concat()<br>
+			<input type="radio" name="q9" value="b" id="q9b">B - every()<br>
+			<input type="radio" name="q9" value="c" id="q9c">C - push()<br>
+			<input type="radio" name="q9" value="d" id="q9d">D - some()<br>
+			
+			<h3>Q10 -  Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?</h3>                 
+			<input type="radio" name="q10" value="a" id="q10a">A - unshift()<br>
+			<input type="radio" name="q10" value="b" id="q10b">B - sort()<br>
+			<input type="radio" name="q10" value="c" id="q10c">C - splice()<br>
+			<input type="radio" name="q10" value="d" id="q10d">D - toString()<br>
+			<br><br>
+			<input type="submit" class='submit' value="SUBMIT"/><br>				
+		</form>
+		</section>
+		<div id="results"></div><br>
+		
+		<footer>
+			<p><center><strong>COPYRIGHTS RESERVED 2020 |  CYBER-EDGE</strong></center></p>
+		</footer>
+		</div>
+	</body>
+</html>
